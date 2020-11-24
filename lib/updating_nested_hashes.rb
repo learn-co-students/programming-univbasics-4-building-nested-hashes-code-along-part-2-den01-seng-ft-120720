@@ -68,6 +68,20 @@ apothecary = {name: "Apothecary"}
 epic_tragedy[:additional_characters] << prince
 epic_tragedy[:additional_characters] << apothecary
 
+# One step PT 1
+# epic_tragedy[:additional_characters] << { name: "Prince Escalus" }
+# epic_tragedy[:additional_characters] << { name: "Apothecary" }
+
+# One step PT 2
+# epic_tragedy[:additional_characters][0] = { name: "Prince Escalus" }
+# epic_tragedy[:additional_characters][1] = { name: "Apothecary" }
+
+# One step PT 3
+# epic_tragedy[:additional_characters] = [
+#   { name: "Prince Escalus" },
+#   { name: "Apothecary" }
+# ]
+
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
